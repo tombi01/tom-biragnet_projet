@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f0f0;
+    font-family: "Comic Sans MS", serif;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personal_container, .football_container, .music_container, .travel_container {
+    width: 400px;
+    margin: 120px auto 120px;
+    background-color: #fff;
+    padding: 0 20px 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.profile_picture, .football_picture, .music_picture, .travel_picture {
+    border-radius: 100px;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    top: -60px;
+    box-shadow: 0 0 0 13px #f0f0f0;
+}
+
+.profile_informations {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul {
+    list-style: none;
+}
